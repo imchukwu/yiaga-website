@@ -13,7 +13,7 @@ import aanuImg from "@/assets/team/Aanu.jpg";
 import adamuImg from "@/assets/team/Adamu.jpg";
 import ahmedImg from "@/assets/team/Ahmed.jpg";
 import bharatImg from "@/assets/team/Bharat.jpeg";
-import blessingImg from "@/assets/team/Blessing.jpg";
+import blessingImg from "@/assets/team/Blessing.jpeg";
 import deborahImg from "@/assets/team/Deborah.jpg";
 import ogwucheImg from "@/assets/team/Ogwuche.jpg";
 import estherImg from "@/assets/team/Esther.jpg";
@@ -24,8 +24,10 @@ import ibrahimImg from "@/assets/team/Ibrahim.jpg";
 import ifeanyiImg from "@/assets/team/Ifeanyi.jpeg";
 import ikechukwuImg from "@/assets/team/Ikechukwu.jpg";
 import ireneImg from "@/assets/team/Irene.jpg";
+import jangsonImg from "@/assets/team/Jangson.jpeg";
 import josephineImg from "@/assets/team/Josephine.jpg";
 import joshuaImg from "@/assets/team/Joshua.jpg";
+import milliscentImg from "@/assets/team/Milliscent.jpeg";
 import musaImg from "@/assets/team/Musa.jpg";
 import ndukweImg from "@/assets/team/Ndukwe.jpg";
 import ogbonnaImg from "@/assets/team/Ogbonna.jpg";
@@ -53,10 +55,10 @@ const teamList = [
   { name: "Joshua Adinze", role: "Manager, Internal Audit & Compliance", image: joshuaImg },
   { name: "Ogbonna Ugorji", role: "Head, Administration & Human Resources", image: ogbonnaImg },
   { name: "Ibrahim Faruk", role: "Program Coordinator", image: ibrahimImg },
-  { name: "Samuel Oguche", role: "Center Coordinator, CLE", image: ogwucheImg },
+  { name: "Dr. Samuel Oguche", role: "Center Coordinator, CLE", image: ogwucheImg },
   { name: "Yetunde Bakare", role: "Program Manager", image: yetundeImg },
+  { name: "Dr. Milliscent Nnwoka", role: "Program Manager, FIMI / Acting Head, Media & Communications", image: milliscentImg },
   { name: "Anthonia Onda", role: "Senior Program Officer", image: toniaImg },
-  { name: "Milliscent Nnwoka", role: "Media & Communications Officer", image: null },
   { name: "Ikechukwu Chukwu", role: "Senior IT Officer", image: ikechukwuImg },
   { name: "Ndukwe Onugu", role: "Senior IT Officer", image: ndukweImg },
   { name: "Olaniyan Sanusi", role: "Program Officer", image: sanusiImg },
@@ -84,7 +86,7 @@ const teamList = [
   { name: "Kareem Ganiyu", role: "Office Assistant", image: ganiuImg },
   { name: "Helen Genesis", role: "Office Support Staff", image: helenImg },
   { name: "Blessing Bulus", role: "Office Support Staff", image: blessingImg },
-  { name: "Joshua Jangson", role: "Office Support Staff", image: null },
+  { name: "Joshua Jangson", role: "Office Support Staff", image: jangsonImg },
 ];
 
 const TeamMemberCard = ({ member, large = false }: { member: any, large?: boolean }) => {
